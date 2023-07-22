@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./Components/WelcomePage/Header";
+import "./App.css";
+import Card from "./Card/Card";
+import { useState } from "react";
 
 function App() {
+
+  const [access, setAccess] = useState(false);
+
+  const handleCardAccess = (accessStatus) => {
+    if (accessStatus === true) {
+      setAccess(true);
+    }
+  }
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div>
+          <Header onRequestAccess={handleCardAccess} display={access} />
+          <Card display={access} />
+        </div>
       </header>
     </div>
   );
 }
-
 export default App;
