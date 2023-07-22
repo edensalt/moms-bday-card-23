@@ -17,7 +17,7 @@ const Card = (props) => {
 
 
     return (
-        <div className={`${display} p-4`}>
+        <div className={`${display} p-4 flex flex-col items-center`}>
             <CardTitle />
             <CardBody />
         </div>
