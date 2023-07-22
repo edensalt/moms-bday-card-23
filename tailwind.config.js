@@ -18,7 +18,53 @@ module.exports = {
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
     },
-    extend: {},
+    extend: {
+      'animation': {
+        'text':'text 5s ease infinite',
+        'cake-1': 'cake-1 5s ease infinite',
+        'cake-2': 'cake-1 5s ease infinite',
+    },
+    'keyframes': {
+        'text': {
+            '0%, 100%': {
+               'background-size':'200% 200%',
+                'background-position': 'left center'
+            },
+            '50%': {
+               'background-size':'200% 200%',
+                'background-position': 'right center'
+            }
+        },
+        'cake-1': {
+          '0%, 100%': {
+            'fill':'darksalmon',
+          },
+          '25%': {
+            'fill':'orchid',
+          },
+          '50%': {
+            'fill':'lightpink',
+          },
+          '75%': {
+            'fill':'plum',
+          }
+        },
+        'cake-2': {
+          '0%, 100%': {
+            'fill':'lightpink',
+          },
+          '25%': {
+            'fill':'plum',
+          },
+          '50%': {
+            'fill':'darksalmon',
+          },
+          '75%': {
+            'fill':'orchid',
+          }
+        }
+    },
+    },
   },
   plugins: [],
 };
