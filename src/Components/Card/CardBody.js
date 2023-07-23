@@ -1,13 +1,13 @@
 import Picture from "./Picture";
 
-import alpha from '../Assets/alpha.jpeg'
-import beer from '../Assets/beers.jpeg'
-import gabriella from '../Assets/gabriellas.jpeg'
-import climbing from '../Assets/climbing.jpeg'
-import walk from '../Assets/bridge.jpeg'
-import bouldin from '../Assets/bouldin.jpeg'
-import lexi from '../Assets/lexi.jpeg'
-import golf from '../Assets/golf.jpeg'
+import alpha from '../../Assets/alpha.jpeg'
+import beer from '../../Assets/beers.jpeg'
+import gabriella from '../../Assets/gabriellas.jpeg'
+import climbing from '../../Assets/climbing.jpeg'
+import walk from '../../Assets/bridge.jpeg'
+import bouldin from '../../Assets/bouldin.jpeg'
+import lexi from '../../Assets/lexi.jpeg'
+import golf from '../../Assets/golf.jpeg'
 
 const CardBody = () => {
 

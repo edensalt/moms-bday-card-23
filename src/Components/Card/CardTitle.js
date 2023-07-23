@@ -1,4 +1,4 @@
-import Cake from "../SVGs/Cake";
+import Cake from "../../SVGs/Cake";
 
 const CardTitle = () => {
   return (

@@ -1,6 +1,6 @@
 import Header from "./Components/WelcomePage/Header";
 import "./App.css";
-import Card from "./Card/Card";
+import Card from './Components/Card/Card'
 import { useState } from "react";
 
 function App() {
