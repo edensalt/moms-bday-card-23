@@ -27,7 +27,7 @@ const Picture = (props) => {
           style={{ transition: "transform 1s ease-in-out" }}
         />
         <div className="absolute inset-0 flex justify-center items-center h-full w-full">
-          <div className="p-6 xl:text-[21px]">{props.text}</div>
+          <div className="p-6 xl:text-[21px] text-black">{props.text}</div>
         </div>
       </div>
     </div>
