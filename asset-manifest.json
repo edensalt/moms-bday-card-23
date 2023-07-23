@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/moms-bday-card-23/static/css/main.4965c96b.css",
+    "main.js": "/moms-bday-card-23/static/js/main.b345effd.js",
+    "static/js/787.efdaa6af.chunk.js": "/moms-bday-card-23/static/js/787.efdaa6af.chunk.js",
+    "index.html": "/moms-bday-card-23/index.html",
+    "main.4965c96b.css.map": "/moms-bday-card-23/static/css/main.4965c96b.css.map",
+    "main.b345effd.js.map": "/moms-bday-card-23/static/js/main.b345effd.js.map",
+    "787.efdaa6af.chunk.js.map": "/moms-bday-card-23/static/js/787.efdaa6af.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4965c96b.css",
+    "static/js/main.b345effd.js"
+  ]
+}
