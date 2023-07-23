@@ -14,14 +14,14 @@ const Picture = (props) => {
   return (
     <div>
       <div
-        className="bg-orange-300 p-6 w-96 md:w-auto relative hover:cursor-pointer flex flex-col items-center"
+        className="bg-orange-300 p-6 w-96 rounded md:w-auto relative shadow hover:cursor-pointer flex flex-col items-center"
         onMouseOver={handleHoverIn}
         onMouseLeave={handleHoverOut}
       >
         <img
           src={props.src}
           alt={props.alt}
-          className={`z-10 w-fit h-fit aspect-auto relative ${
+          className={`z-10 w-fit h-fit aspect-auto relative rounded ${
             hover ? "transform translate-x-64 translate-y-64 rotate-45" : ""
           }`}
           style={{ transition: "transform 1s ease-in-out" }}
